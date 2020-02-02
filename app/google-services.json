@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27083356818",
+    "firebase_url": "https://k-police.firebaseio.com",
+    "project_id": "k-police",
+    "storage_bucket": "k-police.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27083356818:android:a7c5e1d98b40355f3fc44b",
+        "android_client_info": {
+          "package_name": "com.arun.k_police"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27083356818-khekc72hfibn5ui2a8m0nelo77m99gqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arun.k_police",
+            "certificate_hash": "ef069e64b053535df50827dbba853a5bafba966e"
+          }
+        },
+        {
+          "client_id": "27083356818-8p76ufug180m75qj3eq34trfkqi94cfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWWNxc4wI9ikbxsLsR22_LF225Ja2rQJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27083356818-8p76ufug180m75qj3eq34trfkqi94cfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">K-POLICE</string>
+    <string-array name="dept">
+        <item>Crime</item>
+        <item>Licence</item>
+        <item>Law</item>
+    </string-array>
 </resources>

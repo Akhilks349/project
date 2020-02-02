@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.057" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/ed1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -37,7 +37,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="User Name"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:textColor="#F2F3F5"
         android:textColorHint="#F7FAFAFA"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/ed4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -67,11 +67,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.648"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/ed1"
         app:layout_constraintVertical_bias="0.125" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/ed1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/ed4"
         app:layout_constraintVertical_bias="0.158" />
 
     <TextView
@@ -120,7 +120,7 @@
         android:layout_marginEnd="96dp"
         android:layout_marginRight="96dp"
         android:layout_marginBottom="8dp"
-        android:text="SIGN IN"
+        android:text="SIGN UP"
         android:textColor="#FDFBFC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

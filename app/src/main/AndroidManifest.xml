@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdvocateReg"></activity>
+        <activity android:name=".FIR"></activity>
+        <activity android:name=".AddLaw" />
+        <activity android:name=".Crminal" />
+        <activity android:name=".PoliceReg" />
+        <activity android:name=".AdvocateReg" />
         <activity android:name=".ApplicantReg" />
         <activity android:name=".AdvocateMenu" />
         <activity android:name=".PoliceMenu" />

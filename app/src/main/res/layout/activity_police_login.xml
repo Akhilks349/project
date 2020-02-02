@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ii"
-    tools:context=".APPLICANTLOGIN">
+    android:background="#E4C3D0"
+    tools:context=".ApplicantLogin">
 
     <TextView
         android:id="@+id/textView1"
@@ -17,7 +17,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="POLICE LOGIN"
-        android:textColor="#F9F9FD"
+        android:textColor="#F300000C"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.057" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/ed1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -39,8 +39,7 @@
         android:ems="10"
         android:hint="User Name"
         android:inputType="textPersonName"
-        android:textColor="#F2F3F5"
-        android:textColorHint="#F8FDFCFC"
+        android:textColor="#080809"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.648"
@@ -49,7 +48,7 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/ed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -61,17 +60,16 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName"
-        android:textColor="#F8FDFAF8"
-        android:textColorHint="#FAFDFCFC"
+        android:textColor="#F80A0A0A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.648"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/ed1"
         app:layout_constraintVertical_bias="0.125" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/bt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/ed2"
         app:layout_constraintVertical_bias="0.158" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
