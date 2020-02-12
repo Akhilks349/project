@@ -27,8 +27,8 @@ public class Crminal extends AppCompatActivity {
         e2=(EditText)findViewById(R.id.ed2);
         e3=(EditText)findViewById(R.id.ed3);
         e4=(EditText)findViewById(R.id.ed4);
-        b1=(Button)findViewById(R.id.ed1);
-        b2=(Button)findViewById(R.id.ed2);
+        b1=(Button)findViewById(R.id.bt1);
+        b2=(Button)findViewById(R.id.bt2);
 
         databaseReference= FirebaseDatabase.getInstance().getReference().child("CrminalDetails");
         crminalModel=new CrminalModel();

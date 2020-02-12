@@ -23,12 +23,12 @@ public class PoliceReg extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_police_reg);
         e1=(EditText)findViewById(R.id.ed1);
-        e2=(EditText)findViewById(R.id.ed4);
-        e3=(EditText)findViewById(R.id.ed5);
+        e2=(EditText)findViewById(R.id.ed2);
+        e3=(EditText)findViewById(R.id.ed3);
         e4=(EditText)findViewById(R.id.ed4);
         e5=(EditText)findViewById(R.id.ed5);
-        b1=(Button)findViewById(R.id.ed1);
-        b2=(Button)findViewById(R.id.ed2);
+        b1=(Button)findViewById(R.id.bt1);
+        b2=(Button)findViewById(R.id.bt2);
         policeRegModel=new PoliceRegModel();
 
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Police");

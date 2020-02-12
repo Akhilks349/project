@@ -23,14 +23,14 @@ public class ApplicantReg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_applicant_reg);
-        e1=(EditText)findViewById(R.id.t1);
-        e2=(EditText)findViewById(R.id.t3);
-        e3=(EditText)findViewById(R.id.t4);
-        e4=(EditText)findViewById(R.id.t5);
-        e5=(EditText)findViewById(R.id.t6);
-        e6=(EditText)findViewById(R.id.t8);
-        b1=(Button)findViewById(R.id.ed1);
-        b2=(Button)findViewById(R.id.button2);
+        e1=(EditText)findViewById(R.id.ed1);
+        e2=(EditText)findViewById(R.id.ed2);
+        e3=(EditText)findViewById(R.id.ed3);
+        e4=(EditText)findViewById(R.id.ed4);
+        e5=(EditText)findViewById(R.id.ed5);
+        e6=(EditText)findViewById(R.id.ed6);
+        b1=(Button)findViewById(R.id.bt1);
+        b2=(Button)findViewById(R.id.bt2);
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Applicant");
         applicantRegModel=new ApplicantRegModel();
 

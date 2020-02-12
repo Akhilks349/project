@@ -1,60 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA9EC7"
-    tools:context=".AdminPage">
+    android:background="@drawable/ii"
+    tools:context=".AdminPage"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/ed1"
+        android:id="@+id/bt1"
         android:layout_width="115dp"
         android:layout_height="51dp"
         android:text="Add Police"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+         />
 
     <Button
-        android:id="@+id/ed2"
+        android:id="@+id/bt2"
         android:layout_width="118dp"
         android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:text="Bail"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed1"
-        app:layout_constraintVertical_bias="0.009" />
+        />
 
     <Button
         android:id="@+id/bt3"
         android:layout_width="125dp"
         android:layout_height="49dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:text="Add Crminal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed2"
-        app:layout_constraintVertical_bias="0.011" />
+
+         />
 
     <Button
         android:id="@+id/bt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="View Users"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt3"
-        app:layout_constraintVertical_bias="0.136" />
+         />
 
     <Button
         android:id="@+id/bt5"
@@ -62,10 +47,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="View Advocate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt4"
-        app:layout_constraintVertical_bias="0.0" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+</LinearLayout>

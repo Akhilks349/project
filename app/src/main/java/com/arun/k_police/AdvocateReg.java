@@ -24,13 +24,13 @@ public class AdvocateReg extends AppCompatActivity {
         setContentView(R.layout.activity_advocate_reg);
 
         e1=(EditText)findViewById(R.id.ed1);
-        e2=(EditText)findViewById(R.id.ed4);
-        e3=(EditText)findViewById(R.id.ed4);
-        e4=(EditText)findViewById(R.id.ed5);
+        e2=(EditText)findViewById(R.id.ed2);
+        e3=(EditText)findViewById(R.id.ed3);
+        e4=(EditText)findViewById(R.id.ed4);
         e5=(EditText)findViewById(R.id.ed5);
-        e6=(EditText)findViewById(R.id.ed5);
-        b1=(Button)findViewById(R.id.ed1);
-        b2=(Button)findViewById(R.id.ed2);
+        e6=(EditText)findViewById(R.id.ed6);
+        b1=(Button)findViewById(R.id.bt1);
+        b2=(Button)findViewById(R.id.bt2);
 
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Advocate");
 

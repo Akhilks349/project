@@ -20,10 +20,10 @@ public class AdminLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_login);
-        name=(EditText)findViewById(R.id.t1);
-        password=(EditText)findViewById(R.id.t2);
+        name=(EditText)findViewById(R.id.ed1);
+        password=(EditText)findViewById(R.id.ed2);
         info=(TextView)findViewById(R.id.tvinfo);
-        login=(Button)findViewById(R.id.b1);
+        login=(Button)findViewById(R.id.bt1);
         info.setText("No. of attempts possible: 5");
         login.setOnClickListener(new View.OnClickListener() {
             @Override

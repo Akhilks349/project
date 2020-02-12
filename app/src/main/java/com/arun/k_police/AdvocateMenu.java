@@ -17,7 +17,7 @@ public class AdvocateMenu extends AppCompatActivity {
         setContentView(R.layout.activity_advocate_menu);
 
         be=(Button)findViewById(R.id.bex1);
-        b1=(Button)findViewById(R.id.ed1);
+        b1=(Button)findViewById(R.id.bt1);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

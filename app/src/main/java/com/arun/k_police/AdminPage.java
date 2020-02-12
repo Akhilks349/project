@@ -14,8 +14,8 @@ public class AdminPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_page);
-        b1=(Button)findViewById(R.id.ed1);
-        b2=(Button)findViewById(R.id.ed2);
+        b1=(Button)findViewById(R.id.bt1);
+        b2=(Button)findViewById(R.id.bt2);
         b3=(Button)findViewById(R.id.bt3);
         b4=(Button)findViewById(R.id.bt4);
         b5=(Button)findViewById(R.id.bt5);

@@ -38,9 +38,9 @@ public class ApplicantLogin extends AppCompatActivity {
             startActivity(ob3);
         }
         e1=(EditText)findViewById(R.id.ed1);
-        p1=(EditText)findViewById(R.id.ed4);
-        login=(Button)findViewById(R.id.ed1);
-        reg=(Button)findViewById(R.id.button4);
+        p1=(EditText)findViewById(R.id.ed2);
+        login=(Button)findViewById(R.id.bt1);
+        reg=(Button)findViewById(R.id.bt2);
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Applicant");
         reg.setOnClickListener(new View.OnClickListener() {
             @Override

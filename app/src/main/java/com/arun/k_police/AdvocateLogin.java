@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,8 +39,10 @@ public class AdvocateLogin extends AppCompatActivity {
             startActivity(ob3);
         }
         e1=(EditText)findViewById(R.id.ed1);
-        e2=(EditText)findViewById(R.id.ed4);
-        reg=(Button)findViewById(R.id.button4);
+        e2=(EditText)findViewById(R.id.ed2);
+        login=(Button)findViewById(R.id.bt1);
+        reg=(Button)findViewById(R.id.bt2);
+
 
         databaseReference= FirebaseDatabase.getInstance().getReference().child("Advocate");
         reg.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +52,6 @@ public class AdvocateLogin extends AppCompatActivity {
                 startActivity(in2);
             }
         });
-        login=(Button)findViewById(R.id.ed1);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
